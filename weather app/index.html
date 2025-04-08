@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="shortcut icon" href="/icons8-cloud-48.png" type="image/x-icon">
+</head>
+<body>
+  <div class="app-wrap">
+    <header>     
+    </header>
+    <section class="section">
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </section>
+    <main>
+      <section class="location">
+        <div class="city">Seattle, US</div>
+        <div class="date">Monday 20 December 2021</div>
+      </section>
+      <div class="current">
+        <div class="temp">3<span>°c</span></div>
+        <div class="weather">Cloudy</div>
+        <div class="hi-low">2°c / 5°c</div>      
+            <!-- New section for extra weather details -->
+            <div class="extra-info">
+              <div class="wind">Wind: -- km/h</div>
+              <div class="humidity">Humidity: --%</div>
+              <div class="cloud-cover">Cloud Cover: --%</div>
+            </div>
+          </div>       
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
